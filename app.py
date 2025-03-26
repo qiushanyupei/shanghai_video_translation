@@ -1,5 +1,5 @@
 from flask import Flask
-from flask_cors import CORS
+# from flask_cors import CORS
 from routes.home_page import home
 from routes.register import register
 from routes.login import login
@@ -7,7 +7,7 @@ from routes.edit import edit
 
 #初始化
 app = Flask(__name__)
-CORS(app)
+# CORS(app)
 
 #需要的端口蓝图
 app.register_blueprint(home)
