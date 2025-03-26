@@ -1,0 +1,1 @@
+UPLOAD="static/video"
